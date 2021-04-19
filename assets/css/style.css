@@ -1652,7 +1652,7 @@ section {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .net-email-form button[type="submit"] {
   background: #4154f1;
   border: 0;
   padding: 10px 30px;
