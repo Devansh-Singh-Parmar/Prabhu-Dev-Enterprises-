@@ -1577,13 +1577,13 @@ section {
   margin-bottom: 0;
 }
 
-.contact .php-email-form {
+.contact .net-email-form {
   background: #fafbff;
   padding: 30px;
   height: 100%;
 }
 
-.contact .php-email-form .error-message {
+.contact .net-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1593,7 +1593,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .sent-message {
+.contact .net-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1603,7 +1603,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.contact .net-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
@@ -1611,7 +1611,7 @@ section {
   margin-bottom: 24px;
 }
 
-.contact .php-email-form .loading:before {
+.contact .net-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1624,22 +1624,23 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 0;
+.contact .net-email-form input, .contact .net-email-form textarea {
+  border-radius: 6px;
+  height: 55px;
   box-shadow: none;
-  font-size: 14px;
-  border-radius: 0;
+  font-size: 15px;
+  border-radius: 6px;
 }
 
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .net-email-form input:focus, .contact .net-email-form textarea:focus {
   border-color: #4154f1;
 }
 
-.contact .php-email-form input {
+.contact .net-email-form input {
   padding: 10px 15px;
 }
 
-.contact .php-email-form textarea {
+.contact .net-email-form textarea {
   padding: 12px 15px;
 }
 
@@ -1652,7 +1653,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact .net-email-form button[type="submit"]:hover {
   background: #5969f3;
 }
 
@@ -2268,7 +2269,7 @@ section {
 }
 
 .footer .footer-top .footer-info .logo span {
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
